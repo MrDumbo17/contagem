@@ -6,41 +6,47 @@ input::-webkit-outer-spin-button,   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+body{
+    background-color: gray;
+}
 section{
+    width: 300px;
+    margin: auto;
     background-color: lightgray;
-    width: 500px;
-    margin: auto;
-}
-h2{
-margin: 10px;
-
-}
-div {
-    width: 150px;
-    padding: 5px;
-    margin: auto;
-    text-align: center;
-    display: inline-block;
- 
-}
-.caixa1 {
-    background-color: red;
-    width: 130px;
-}
-input{
-    text-align: center;
-
-    display: block;
-    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 5px;
     margin-top: 10px;
-    height: 20px;
+}
+
+h2{
+    text-align: center;
+    width: 90px;
+    display: inline-block;
+    
     
 }
-p{
-
-    text-align: center;
-    font: normal 1em sans-serif;
+div{
     margin-top: 10px;
+}
+input{
+    display: inline-block;
+    width: 30px;
+    margin: 0px 25px;
+}
 
-    height: 20px;
+p{
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+}
+.total{
+    width: 30px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+}
+strong{
+    
+
 }

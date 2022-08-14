@@ -8,49 +8,62 @@
     <title>Contagem</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <section>
-            <div>
-                
-                <h2> Luxo</h2>
-                <div class="caixa1">
-                    <input type="number" name="aptoL" id="aptoL">
-                    <input type="number" name="balcaoL" id="balcaoL">
-                    <input type="number" name="armL" id="armL">
-                    <input type="number" name="varalL" id="varalL">
-                    <input type="number" name="mesaL" id="mesaL">
-                    <input type="number" name="maqL" id="mesaL">
-                    <input type="number" name="cadL" id="cadL">
-                    <input type="number" name="molhoL" id="molhoL">
-                </div>
+<body onload="teste()">
+    <section id="teste">
+        <div id="titulo">
+            <h2>Luxo</h2>
+            <h2>Toalhas</h2>
+            <h2>Simples</h2>
+        </div>
+        <div>
+            <input type="number" name="apL" id="apL" class="luxo" >
+            <p>Aptos</p>
+            <input type="number" name="apS" id="apS" class="simples">
+        </div>
+        <div>
+            <input type="number" name="balcL" id="balcL" class="luxo">
+            <p>Balcão</p>
+            <input type="number" name="balcS" id="balcS" class="simples">
+        </div>
+        <div>
+            <input type="number" name="armL" id="armL" class="luxo">
+            <p>Armário</p>
+            <input type="number" name="armS" id="armS" class="simples">
+        </div>
+        <div>
+            <input type="number" name="varalL" id="varalL" class="luxo">
+            <p>Varal</p>
+            <input type="number" name="varalS" id="varalS" class="simples">
+        </div>
+        <div>
+            <input type="number" name="mesaL" id="mesaL" class="luxo">
+            <p>Mesa</p>
+            <input type="number" name="mesaS" id="mesaS" class="simples">
+        </div>
+        <div>
+            <input type="number" name="maqL" id="maqL" class="luxo">
+            <p>Máquina</p>
+            <input type="number" name="maqS" id="maqS" class="simples">
+        </div>
+        <div>
+            <input type="number" name="cadL" id="cadL" class="luxo">
+            <p>Cadeira</p>
+            <input type="number" name="cadS" id="cadS" class="simples">
+        </div>
+        <div>
+            <input type="number" name="molhoL" id="molhoL" class="luxo">
+            <p>Molho</p>
+            <input type="number" name="molhoS" id="molhoS" class="simples">
+        </div>
+        <div>
+            <div class="total">
+                <strong class="luxo" id="totalL">000</strong>
             </div>
-            <div>
-                <h2>Toalhas</h2>
-                <div class="caixa1">
-                    <p>Apto</p>
-                    <p>Balcão</p>
-                    <p>Armário</p>
-                    <p>Varal</p>
-                    <p>Mesa</p>
-                    <p>Maquina</p>
-                    <p>Cadeira</p>
-                    <p>Molho</p>
-                    <p>Total</p>
-                </div>
+            <p>Total</p>
+            <div class="total">
+                <strong class="simples" id="totalS">000</strong>
             </div>
-            <div>
-                <h2>Simples</h2>
-                <div class="caixa1">
-                    <input type="number" name="aptoS" id="aptoS">
-                    <input type="number" name="balcaoS" id="balcaoS">
-                    <input type="number" name="armS" id="armS">
-                    <input type="number" name="varalS" id="varalS">
-                    <input type="number" name="mesaS" id="mesaS">
-                    <input type="number" name="maqS" id="mesaS">
-                    <input type="number" name="cadS" id="cadS">
-                    <input type="number" name="molhoS" id="molhoS">
-                </div>
-            </div>
+        </div>
     </section>
 
     <script src="script.js"></script>
