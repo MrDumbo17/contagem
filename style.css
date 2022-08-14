@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+
+input::-webkit-outer-spin-button,   input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+section{
+    background-color: lightgray;
+    width: 500px;
+    margin: auto;
+}
+h2{
+margin: 10px;
+
+}
+div {
+    width: 150px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+ 
+}
+.caixa1 {
+    background-color: red;
+    width: 130px;
+}
+input{
+    text-align: center;
+
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 20px;
+    
+}
+p{
+
+    text-align: center;
+    font: normal 1em sans-serif;
+    margin-top: 10px;
+
+    height: 20px;
+}
