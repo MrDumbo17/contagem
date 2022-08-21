@@ -10,7 +10,7 @@ input::-webkit-outer-spin-button,   input::-webkit-inner-spin-button {
 body{
     background-color: gray;
 }
-section{
+#part1{
     width: 300px;
     margin: auto;
     background-color: lightgray;
@@ -33,6 +33,7 @@ input{
     display: inline-block;
     width: 30px;
     margin: 0px 25px;
+    text-align: center;
 }
 
 p{
@@ -49,4 +50,62 @@ p{
 strong{
     
 
+}
+#part2{
+
+    width: 300px;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px 0px;
+    
+}
+#part2 > div{
+
+    margin: 10px 0px 0px 10px ;
+    width: 130px;
+    height: 250px;
+    padding: 0px;
+    display: inline-block;
+
+}
+#prod > p {
+    width: 62px;
+    margin: 5px 10px;
+}
+#prod > input {
+    
+    margin: auto;
+}
+
+#caixa{
+
+    margin-top: 0px;
+    height: 100px;
+
+}
+#caixa p {
+    margin: 1px;
+    width: 46px;
+}
+#caixa input {
+    width: 50px;
+    margin: auto;
+}
+
+#check{
+
+    margin-top: 70px;
+    margin-bottom: 5px;
+    height: 100px;
+
+}
+
+#check p {
+    text-align: justify;
+    margin: 1px;
+    width: 78px;
+}
+#check input {
+    margin: auto;
 }

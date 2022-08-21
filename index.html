@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body onload="carregar()">
-    <section id="teste">
+    <section id="part1">
         <div id="titulo">
             <h2>Luxo</h2>
             <h2>Toalhas</h2>
@@ -57,15 +57,42 @@
         </div>
         <div>
             <div class="total">
-                <strong class="luxo" id="totalL">000</strong>
+                <strong class="luxo" id="totalL"></strong>
             </div>
             <p>Total</p>
             <div class="total">
-                <strong class="simples" id="totalS">000</strong>
+                <strong class="simples" id="totalS"></strong>
             </div>
         </div>
     </section>
-    <section id="teste"></section>
+    <section id="part2">
+        <div id="prod">
+            <p>Mine</p><input type="number" name="mine" id="mine" value="0" class="val">
+            <p>Águas</p><input type="number" name="agua" id="agua" value="0" class="val">
+            <p>Refri</p><input type="number" name="refri" id="refri" value="0" class="val">
+            <p>Presto</p><input type="number" name="presto" id="presto" value="0" class="val">
+            <p>Pente</p><input type="number" name="pente" id="pente" value="0" class="val">
+            <p>C. Dental</p><input type="number" name="cdent" id="cdent" value="0" class="val">
+            <p>E. Dental</p><input type="number" name="edent" id="edent" value="0" class="val">
+            <p>Sabonete</p><input type="number" name="Sab" id="Sab" value="0" class="val">
+            <p>Tábua</p><input type="checkbox" name="tabua" id="tabua">
+        </div>
+        <div>
+            
+            <div id="caixa">
+                <p>Cédula</p> R$<input type="number" name="ced" id="ced" value="0.00" class="valR">
+                <p>Moeda</p> R$<input type="number" name="moeda" id="moeda" value="0.00" class="valR">
+                <p>Vale</p> R$<input type="number" name="vale" id="vale" value="0.00" class="valR">
+                <p>Cartão</p> R$<input type="number" name="cartao" id="cartao" value="0.00" class="valR">
+            </div>
+            <div id="check">
+                <p>Chaves</p><input type="checkbox" name="chaves" id="chaves">
+                <p>Controles</p><input type="checkbox" name="controles" id="controles">
+                <p>Calculadora</p><input type="checkbox" name="calc" id="calc">
+                <p>Termômetro</p><input type="checkbox" name="term" id="term">
+            </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
